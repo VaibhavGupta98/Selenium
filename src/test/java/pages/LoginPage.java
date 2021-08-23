@@ -18,7 +18,7 @@ public class LoginPage {
 	
 	@FindBy(xpath="/html/body/div[1]/header/div/nav/div/div/a") WebElement loginButton;
 	
-	@FindBy(name="email1") WebElement user;
+	@FindBy(name="email") WebElement user;
 	
 	@FindBy(name="password") WebElement pass;
 	
